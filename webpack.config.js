@@ -101,7 +101,7 @@ module.exports = (env, argv) => {
         logo: `${sourceDir}/images/favicon.png`,
         prefix: "images/favicons/",
         favicons: {
-          appName: "Saleor",
+          appName: "Shopu",
           appDescription: "Storefront for the Saleor e-commerce platform",
           display: "standalone",
           developerURL: null, // prevent retrieving from the nearest package.json
@@ -110,7 +110,7 @@ module.exports = (env, argv) => {
         }
       }),
       new SWPrecacheWebpackPlugin({
-        cacheId: "saleor-store-front",
+        cacheId: "shopu-store-front",
         filename: "service-worker.js",
         navigateFallback: "/index.html",
         staticFileGlobsIgnorePatterns: [/\.map$/, /asset-manifest\.json$/],

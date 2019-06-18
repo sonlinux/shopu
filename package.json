@@ -1,9 +1,9 @@
 {
-  "name": "saleor-site",
+  "name": "Shopu-site",
   "version": "0.6.0",
   "private": true,
   "author": "Mirumee",
-  "homepage": "https://getsaleor.com/",
+  "homepage": "https://devsbranch.com/",
   "main": "dist/index.js",
   "browserslist": "last 2 versions",
   "dependencies": {
